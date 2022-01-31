@@ -1,0 +1,106 @@
+section:
+  name: About # Title of section (default: "")
+  id: about # url id/slug of section *Required*
+  enable: true # Boolean to determine if this section is enabled (default: false)
+  weight: 1 # Order to display section in (default: alphabetical followed by weight)
+  showOnNavbar: true # Boolean to determine if a link should be shown for this section on the navbar
+  template: sections/about.html # allows you to point to a specific template.
+
+# your designation
+designation: Software Engineer
+# your company information
+company:
+  name: Itaú Unibanco
+  url: "https://linkedin.com/company/itau/"
+
+# a summary about you
+# You can use markdown syntax in the summary field.
+summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'  
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "example@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/example"
+
+# - name: Stackoverflow
+#   icon: "fab fa-stack-overflow"
+#   url: "#"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "#"
+
+# - name: Twitter
+#   icon: "fab fa-twitter"
+#   url: "#"
+
+# - name: Facebook
+#   icon: "fab fa-facebook"
+#   url: "#"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/Resume-Misael-Souza-de-Paula.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: "AWS Certified Developer – Associate"
+  url: "https://www.credly.com/badges/42e24a26-8082-454c-8c2b-e63d5f39366f/public_url"
+  badge: "https://images.credly.com/size/340x340/images/598f6ac6-2dbd-4394-8ae4-943b2f4c43ea/AWS-Developer-Associate-2020.png"
+
+- type: certification
+  name: "AWS Certified DevOps Engineer – Professional"
+  url: "https://www.credly.com/badges/5e8a1062-df05-4822-9dda-62fdd088e9eb/public_url"
+  badge: "https://images.credly.com/size/340x340/images/7fbb805d-ea82-4276-a227-e63121a2844b/AWS-DevOpsEngineer-Professional-2020.png"
+
+# - type: certification
+#   name: "AWS Certified Solutions Architect – Professional"
+#   url: "https://www.credly.com/org/amazon-web-services/badge/aws-certified-solutions-architect-professional"
+#   badge: "https://images.credly.com/size/340x340/images/8e968853-15af-4bbc-9d03-cf518971909c/AWS-SolArchitect-Professional-2020.png"
+
+# - type: certification
+#   name: "AWS Certified Data Analytics – Specialty"
+#   url: "https://www.credly.com/org/amazon-web-services/badge/aws-certified-data-analytics-specialty"
+#   badge: "https://images.credly.com/size/340x340/images/2b31a8f4-92c4-468d-87eb-33115d97f6f5/AWS-DataAnalytics-Specialty-2020.png"  
+
+# - type: certification
+#   name: "AWS Certified Machine Learning – Specialty"
+#   url: "https://www.credly.com/org/amazon-web-services/badge/aws-certified-machine-learning-specialty"
+#   badge: "https://images.credly.com/size/340x340/images/03b8c9d2-1700-42a0-b763-9b533ac06ca7/AWS-MachineLearning-Specialty-2020.png"    
+  
+# - type: certification
+#   name: "Digital Product Management - Specialization"
+#   url: "https://coursera.org/share/eee9d5f8705338ddaf85a41e44167d2a"
+#   badge: "https://media-exp1.licdn.com/dms/image/C4E0BAQFtGwcA77sUpQ/company-logo_100_100/0/1541773650338?e=1651708800&v=beta&t=VhgdB2J7cXT8_CcUKSufGIeRuetcW48tMa4ovshoBUE" 
+
+
+- type: soft-skill-indicator
+  name: Leadership
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Hard Working
+  percentage: 85
+  color: orange
+  
+# Currently, the skill percentage should be between 50 and 100 and should be divisible by 5.
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
