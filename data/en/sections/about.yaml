@@ -15,18 +15,18 @@ company:
 
 # a summary about you
 # You can use markdown syntax in the summary field.
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'  
+summary: "I am a software engineer with 7+ years of working experience. I also have strong skills with computer networks using Cisco and F5 technologies. \n\n Technology transformed my mind to become a life-long learner; through this page, I'd like to share my experiences and projects with you :)"
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "misadevmail@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://github.com/misad3v"
 
 # - name: Stackoverflow
 #   icon: "fab fa-stack-overflow"
@@ -34,7 +34,7 @@ socialLinks:
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/misaelp"
 
 # - name: Twitter
 #   icon: "fab fa-twitter"
