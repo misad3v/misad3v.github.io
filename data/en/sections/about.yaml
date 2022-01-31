@@ -82,20 +82,20 @@ badges:
 #   badge: "https://media-exp1.licdn.com/dms/image/C4E0BAQFtGwcA77sUpQ/company-logo_100_100/0/1541773650338?e=1651708800&v=beta&t=VhgdB2J7cXT8_CcUKSufGIeRuetcW48tMa4ovshoBUE" 
 
 
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
+# - type: soft-skill-indicator
+#   name: Leadership
+#   percentage: 85
+#   color: blue
 
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
+# - type: soft-skill-indicator
+#   name: Team Work
+#   percentage: 90
+#   color: yellow
 
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
+# - type: soft-skill-indicator
+#   name: Hard Working
+#   percentage: 85
+#   color: orange
   
 # Currently, the skill percentage should be between 50 and 100 and should be divisible by 5.
 
